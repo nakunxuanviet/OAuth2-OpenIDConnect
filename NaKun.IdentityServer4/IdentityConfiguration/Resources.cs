@@ -29,7 +29,7 @@ namespace NaKun.IdentityServer4.IdentityConfiguration
                     DisplayName = "Weather Api",
                     Description = "Allow the application to access Weather Api on your behalf",
                     Scopes = new List<string> { "weatherApi.read", "weatherApi.write"},
-                    ApiSecrets = new List<Secret> {new Secret("ProCodeGuide".Sha256())},
+                    ApiSecrets = new List<Secret> {new Secret("NaKun".Sha256())},
                     UserClaims = new List<string> {"role"}
                 }
             };
